@@ -1,0 +1,24 @@
+{
+  "name": "shapes",
+  "version": "1.0.0",
+  "description": "Any-Cubes Shapes App",
+  "scripts": {
+    "serve": "npx parcel index.html",
+    "build": "npx parcel build index.html --public-url ./",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mqtt": "^3",
+    "normalize.css": "^8.0.1"
+  },
+  "devDependencies": {
+    "events": "^3.3.0",
+    "parcel": "^2.5.0",
+    "process": "^0.11.10",
+    "querystring-es3": "^0.2.1",
+    "url": "^0.11.0"
+  }
+}

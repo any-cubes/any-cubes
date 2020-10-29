@@ -1,0 +1,66 @@
+@import '../node_modules/normalize.css/normalize';
+
+main {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.scene {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+
+.scene--active {
+  display: flex;  
+}
+
+.scene__shape  {
+  width: 40vh;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* color-theme: https://color.adobe.com/de/EarthDay-color-theme-12385336 */
+.scene[data-scene-id='1'] {
+  background-color: #4ACAD9;  
+}
+
+.scene[data-scene-id='1'] .scene__shape {
+  background-color: #147CA6;
+  border-radius: 50%;
+}
+
+/* color-theme: https://color.adobe.com/de/primavera-intensa-color-theme-12422713 */
+.scene[data-scene-id='2'] {
+  background-color: #FEB6D4;  
+}
+
+.scene[data-scene-id='2'] .scene__shape {
+  /* background-color: #EC436E; */
+  width: 0; 
+  height: 0; 
+  border-left: 30vh solid transparent;
+  border-right: 30vh solid transparent;
+  border-bottom: 40vh solid #EC436E;
+}
+
+.scene[data-scene-id='3'] {
+  background-color: #1E6F45;
+}
+
+.scene[data-scene-id='3'] .scene__shape {
+  background-color: #33BC75;
+  width: 40vh;
+  height: 40vh;
+}
+
