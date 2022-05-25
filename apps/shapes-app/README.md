@@ -2,7 +2,7 @@
 
 ![Shapes App Mockup](https://user-images.githubusercontent.com/1055819/170129045-64e360d7-9320-486a-8685-f220606ec701.png)
 
-The Shapes App uses MQTT to listen to state-changes of the Vision-Cube.
+The Shapes App uses MQTT to listen to state-changes of the [Vision-Cube](../../cubes/vision-cube/README.md).
 It can be used as an alternative to the Light-Cube, by visualizing the active class *seen* by the Vision-Cube, or serve as a starting point for other apps that interact with Any-Cubes.
 
 ## Installation
