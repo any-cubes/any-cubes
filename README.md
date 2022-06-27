@@ -7,7 +7,7 @@ _Didactic toy for machine teaching and IoT_
 
 Any-Cubes is a prototype didactic toy for schools and maker spaces, with which children can intuitively and playfully explore and understand machine learning as well as Internet of Things technology. Our prototype is a combination of deep learning-based image classification and machine-to-machine (m2m) communication via [MQTT](https://mqtt.org/). The system consists of three physical and tangible cubes.
 
-Cube 1 («cubes/vision-cube/README.md») is a modification of [Google Coral’s Teachable Machine](https://coral.ai/projects/teachable-machine/) and can be trained to recognize objects or scenes.
+Cube 1 («[Vision-Cube](cubes/vision-cube/README.md)») is a modification of [Google Coral’s Teachable Machine](https://coral.ai/projects/teachable-machine/) and can be trained to recognize objects or scenes.
 The machine learning functionality is running directly on the Raspberry Pi board, accelerated using a Google Edge TPU Stick.
 
 Via the MQTT protocol, the Vision-Cube broadcasts its detected class ("1", "2" or "3") to other Any-Cubes devices ("Light-Cube" and "Maker-Cube").
